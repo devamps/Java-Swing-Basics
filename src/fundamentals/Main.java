@@ -7,7 +7,8 @@ public class Main {
 
         //SwingUtilities.invokeLater(() -> new JOneFrame());
         //SwingUtilities.invokeLater(JTwoFrame::new);
-        SwingUtilities.invokeLater(IButtonFrame::new);
+        //SwingUtilities.invokeLater(IButtonFrame::new);
+        SwingUtilities.invokeLater(JCheckBoxFrame::new);
 
     }
 }
