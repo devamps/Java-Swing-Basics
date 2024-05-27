@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         //SwingUtilities.invokeLater(() -> new JOneFrame());
-        SwingUtilities.invokeLater(JTwoFrame::new);
+        //SwingUtilities.invokeLater(JTwoFrame::new);
+        SwingUtilities.invokeLater(IButtonFrame::new);
 
     }
 }
